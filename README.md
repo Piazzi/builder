@@ -5,8 +5,20 @@
 # Code
 
 Simple project representing the builder design pattern. For this project i made an application wich builds a computer
+<br></br>
 
 ![31097354](https://user-images.githubusercontent.com/40416044/143771045-c9769d86-34b9-4bfc-8133-cb747a115bb2.jpg)
+
+# Resume
+
+A design pattern that let the developer do this:
+
+<code> Computer computer = computerBuilder.setBudget(0).setSolidStateDrive('SSD').setGraphicsCard('GTX 1050TI').build(); </code>
+
+
+
+
+
 
 
 # Definition
