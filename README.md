@@ -4,7 +4,10 @@
 
 # Code
 
-Simple project representing the builder design pattern. 
+Simple project representing the builder design pattern. For this project i made an application wich builds a computer
+
+![31097354](https://user-images.githubusercontent.com/40416044/143771045-c9769d86-34b9-4bfc-8133-cb747a115bb2.jpg)
+
 
 # Definition
 
