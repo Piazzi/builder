@@ -19,6 +19,22 @@ class ComputerBuilderTest {
         }
     }
 
+    void shouldReturnMotherboardException() {
+        try {
+            ComputerBuilder computerBuilder = new ComputerBuilder();
+            Computer computer = computerBuilder.setBudget(1000).build();
+            fail();
+        } catch (IllegalArgumentException e) {
+            assertEquals("You need a motherboard", e.getMessage());
+        }
+    }
+
+    void ShouldReturnValidComputer(){
+        ComputerBuilder computerBuilder = new ComputerBuilder();
+        Computer computer = computerBuilder.setBudget(1000).setMotherboard('H61 AFOX H61 IH61-MA5 Micro-ATX LGA1155').build();
+        assertNotNull(computer);
+    }
+
     @org.junit.jupiter.api.Test
     void build() {
     }

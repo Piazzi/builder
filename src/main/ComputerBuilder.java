@@ -8,8 +8,12 @@ public class ComputerBuilder {
     }
 
     public Computer build() {
+
         if(computer.getBudget() == 0){
             throw  new IllegalArgumentException("You don't have any money");
+        }
+        if(computer.getMotherboard() == null){
+            throw  new IllegalArgumentException("You need a motherboard");
         }
 
         return computer;
